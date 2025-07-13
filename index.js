@@ -2,7 +2,7 @@ import express from "express";
 import ejs from 'ejs';
 import  { getStates, getLgas } from 'nigeria-states-lga-select';
 
-const port = 2000;
+const port = process.env.PORT || 2000;
 const app = express();
 
 app.use(express.urlencoded({extended:true}));
