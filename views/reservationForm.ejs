@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/29f008667d.js" crossorigin="anonymous"></script>
+    <title>ShopKeeper Coming soon!</title>
+</head>
+<body id="formBody">
+    <div class="form">
+        <a class="back" href="/"><i class="fas fa-arrow-left"></i></a>
+        <form action="https://www.form-to-email.com/api/s/BwrNjbm9okFe" method="post">
+            <p>Be the first to get notified on launch date</p>
+            <input type="text" name="name" placeholder="Enter your full name">
+            <input type="email" name="email" placeholder="Enter your email">
+            <input type="number" name="phone" placeholder="Phone number">
+            <select name="state" id="">
+                <option value></option>
+                <% states.forEach((state) => { %>
+                    <option value="<%= state %>"><%= state %></option>
+                <% }) %>
+            </select>
+            <button type="submit">Secure reservation</button>
+        </form>
+    </div>
+    <footer>
+        <h1>ShopKeeper</h1>
+    </footer>
+</body>
+</html>

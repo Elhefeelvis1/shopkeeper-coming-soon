@@ -1,0 +1,17 @@
+{
+  "name": "shopkeeper-coming-soon",
+  "version": "1.0.0",
+  "description": "ShopKeeper release announcement and reservation portal",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mmaduabuchi Igwilo",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nigeria-states-lga-select": "^1.0.9"
+  }
+}
